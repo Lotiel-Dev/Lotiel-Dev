@@ -35,10 +35,8 @@
 </div>
 
 ###
-![GitHub Snake Light](https://github.com/Frosmin/Frosmin/blob/output/github-contribution-grid-snake.svg#gh-light-mode-only)
-![GitHub Snake Dark](https://github.com/Frosmin/Frosmin/blob/output/github-contribution-grid-snake-dark.svg#gh-dark-mode-only)
-
-
+![GitHub Snake Light](dist/github-contribution-grid-snake.svg#gh-light-mode-only)
+![GitHub Snake Dark](dist/github-contribution-grid-snake-dark.svg#gh-dark-mode-only)
 ###
 
 
