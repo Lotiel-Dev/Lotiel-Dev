@@ -2,7 +2,7 @@
 <!--Hello 👋! My name is Carlos and I'm a backend developer!! -->
 <div id="user-content-toc">
   <ul align="center">
-    <summary><h1 style="display: inline-block">Hi, I'm Carlos A. Gutierrez Copara 👋 I'm a 🚀 programming student 🚀</h1></summary>
+    <summary><h1 style="display: inline-block">Hi, I'm Carlos A. Gutierrez Copara 👋 I'm a 🚀 student of Informatics Engineering 🚀</h1></summary>
   </ul>
 </div>
 
