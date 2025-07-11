@@ -1,0 +1,42 @@
+name: generate animation
+
+on:
+  schedule:
+    - cron: "0 0 * * *"  #para que se actulaize a la la media noche xd
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+      
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: generate github-contribution-grid-snake.svg
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+
+      - name: Commit and push SVGs to main branch
+        run: |
+          git config --global user.name "Lotiel-Dev"
+          git config --global user.email "karlos817gerceis@gmail.com"
+          git add dist/*.svg
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+          git commit -m "chore: actualizacion de snake SVG [skip ci]"
+          git push origin HEAD:main
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
