@@ -1,13 +1,12 @@
  
-<!-- and I'm a backend developer!! -->
+<!--Hello 👋! My name is Carlos and I'm a backend developer!! -->
 <div id="user-content-toc">
   <ul align="center">
-    <summary><h1 style="display: inline-block">Hello 👋! My name is Carlos</h1></summary>
+    <summary><h1 style="display: inline-block">Hi, I'm Carlos Gutierrez 👋 I'm a 🚀 programming student 🚀</h1></summary>
   </ul>
 </div>
-<p align="center">
-  <img src="https://github.com/matyo91/matyo91/raw/main/assets/github.gif" alt="Hi, I'm Carlos Gutierrez 👋 I'm a 🚀 programming student 🚀">
-</p>
+
+
 ###
 
 <img align="right" height="150" src="https://i.imgflip.com/65efzo.gif"  />
