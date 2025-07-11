@@ -12,13 +12,9 @@
 
 <div id="user-content-toc">
   <ul align="left">
-    <summary><h1 style="display: inline-block">Code never lies, comments sometimes do.</h1></summary>
-    <img align="right" height="150" src="https://i.imgflip.com/65efzo.gif"  />
-  </ul>
-  
+    <summary><h1 style="display: inline-block">Code never lies, comments sometimes do.</h1><img align="right" height="150" src="https://i.imgflip.com/65efzo.gif"  /></summary>
     
-
-  
+  </ul>
 </div>
 
 
