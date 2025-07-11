@@ -15,6 +15,7 @@
     <summary><h1 style="display: inline-block">Code never lies, comments sometimes do.</h1></summary>
   </ul>
 </div>
+<img align="right" height="150" src="https://i.imgflip.com/65efzo.gif"  />
 
 ###
 
