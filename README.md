@@ -11,10 +11,10 @@
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 <div id="user-content-toc">
-  <ul align="center">
+  <ul align="left">
     <summary><h1 style="display: inline-block">Code never lies, comments sometimes do.</h1></summary>
   </ul>
-  <ul align="center">
+  <ul align="right">
     <img align="right" height="150" src="https://i.imgflip.com/65efzo.gif"  />
   </ul>
   
