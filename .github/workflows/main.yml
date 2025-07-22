@@ -3,10 +3,6 @@ name: generate animation
 on:
   schedule:
     - cron: "0 0 * * *"  #para que se actulaize a la la media noche xd
-  workflow_dispatch:
-  push:
-    branches:
-      - main
       
 permissions:
   contents: write

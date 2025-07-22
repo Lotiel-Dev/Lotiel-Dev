@@ -4,11 +4,6 @@ on:
   schedule: 
     - cron: "0 */24 * * *"  #para que se actualice cada 24 hr xd
 
-  workflow_dispatch:
-
-  push:
-    branches:
-    - main
 permissions:
   contents: write
 
