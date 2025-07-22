@@ -51,10 +51,19 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="30" alt="mysql logo"  />
 </div>
 
-###
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
 ![GitHub Snake Light](dist/github-contribution-grid-snake.svg#gh-light-mode-only)
 ![GitHub Snake Dark](dist/github-contribution-grid-snake-dark.svg#gh-dark-mode-only)
-###
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
+
+<picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Lotiel-Dev/Lotiel-Dev/main/pacman-contribution-graph-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Lotiel-Dev/Lotiel-Dev/main/pacman-contribution-graph.svg">
+    <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/Lotiel-Dev/Lotiel-Dev/main/pacman-contribution-graph.svg">
+</picture>
 
 
 
