@@ -1,0 +1,44 @@
+name: Generate pacman animation
+
+on:
+  schedule: 
+    - cron: "0 0 * * *"  #para que se actulaize a la la media noche xd
+
+  workflow_dispatch:
+
+  push:
+    branches:
+    - main
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: generate pacman-contribution-graph.svg
+        uses: abozanona/pacman-contribution-graph@main
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/pacman-contribution-graph-light.svg
+            dist/pacman-contribution-graph-dark.svg?palette=github-dark
+
+
+      - name: push pacman-contribution-graph.svg to the output main
+        run: |
+          git config --global user.name "Lotiel-Dev"
+          git config --global user.email "karlos817gerceis@gmail.com"
+          git add dist/*.svg
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+          git commit -m "chore: actualizacion de snake SVG [skip ci]"
+          git push origin HEAD:main
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
