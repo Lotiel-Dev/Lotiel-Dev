@@ -2,7 +2,7 @@ name: Generate pacman animation
 
 on:
   schedule: 
-    - cron: "0 0 * * *"  #para que se actulaize a la la media noche xd
+    - cron: "0 */24 * * *"  #para que se actualice cada 24 hr xd
 
   workflow_dispatch:
 
