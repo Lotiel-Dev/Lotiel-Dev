@@ -24,10 +24,6 @@ jobs:
         uses: abozanona/pacman-contribution-graph@main
         with:
           github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/pacman-contribution-graph-light.svg
-            dist/pacman-contribution-graph-dark.svg?palette=github-dark
-
 
       - name: push pacman-contribution-graph.svg to the output main
         run: |
@@ -38,7 +34,7 @@ jobs:
             echo "No changes to commit."
             exit 0
           fi
-          git commit -m "chore: actualizacion de snake SVG [skip ci]"
+          git commit -m "chore: actualizacion de pacman SVG [skip ci]"
           git push origin HEAD:main
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
