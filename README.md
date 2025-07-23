@@ -8,7 +8,7 @@
 
 <div style="display: flex; align-items: center; gap: 16px;">
   <img src="https://raw.githubusercontent.com/innng/innng/master/assets/kyubey.gif" height="40" />
-  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="730" />
+  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="700" />
   <img src="https://raw.githubusercontent.com/innng/innng/master/assets/kyubey.gif" height="40" />
 </div>
 
