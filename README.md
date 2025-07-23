@@ -7,9 +7,9 @@
 </div>
 
 <div style="display: flex; align-items: center; gap: 16px;">
-  <img src="https://raw.githubusercontent.com/innng/innng/master/assets/kyubey.gif" height="40" />
-  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="670" />
-  <img src="https://raw.githubusercontent.com/innng/innng/master/assets/kyubey.gif" height="40" />
+  <img src="https://raw.githubusercontent.com/Lotiel-Dev/Lotiel-Dev/main/assets/kyubey.gif" height="40" />
+  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="675" />
+  <img src="https://raw.githubusercontent.com/Lotiel-Dev/Lotiel-Dev/main/assets/kyubey.gif" height="40" />
 </div>
 
 <!--
@@ -46,9 +46,9 @@
 
 
 <div style="display: flex; align-items: center; gap: 16px;">
-  <img src="https://raw.githubusercontent.com/innng/innng/master/assets/kyubey.gif" height="40" />
-  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="730" />
-  <img src="https://raw.githubusercontent.com/innng/innng/master/assets/kyubey.gif" height="40" />
+  <img src="https://raw.githubusercontent.com/Lotiel-Dev/Lotiel-Dev/main/assets/kyubey.gif" height="40" />
+  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="675" />
+  <img src="https://raw.githubusercontent.com/Lotiel-Dev/Lotiel-Dev/main/assets/kyubey.gif" height="40" />
 </div>
 
 
@@ -64,9 +64,9 @@
 ![GitHub Snake Dark](dist/github-contribution-grid-snake-dark.svg#gh-dark-mode-only)
 
 <div style="display: flex; align-items: center; gap: 16px;">
-  <img src="https://raw.githubusercontent.com/innng/innng/master/assets/kyubey.gif" height="40" />
-  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="730" />
-  <img src="https://raw.githubusercontent.com/innng/innng/master/assets/kyubey.gif" height="40" />
+  <img src="https://raw.githubusercontent.com/Lotiel-Dev/Lotiel-Dev/main/assets/kyubey.gif" height="40" />
+  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="675" />
+  <img src="https://raw.githubusercontent.com/Lotiel-Dev/Lotiel-Dev/main/assets/kyubey.gif" height="40" />
 </div>
 
 <div id="user-content-toc">
@@ -86,10 +86,11 @@
 
 
 <div style="display: flex; align-items: center; gap: 16px;">
-  <img src="https://raw.githubusercontent.com/innng/innng/master/assets/kyubey.gif" height="40" />
-  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="730" />
-  <img src="https://raw.githubusercontent.com/innng/innng/master/assets/kyubey.gif" height="40" />
+  <img src="https://raw.githubusercontent.com/Lotiel-Dev/Lotiel-Dev/main/assets/kyubey.gif" height="40" />
+  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="675" />
+  <img src="https://raw.githubusercontent.com/Lotiel-Dev/Lotiel-Dev/main/assets/kyubey.gif" height="40" />
 </div>
+
 
 <div align="center">
   
