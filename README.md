@@ -68,6 +68,22 @@
 ![GitHub Snake Dark](dist/github-contribution-grid-snake-dark.svg#gh-dark-mode-only)
 
 
+<picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="images/breakout-dark.svg"
+  />
+  <source
+    media="(prefers-color-scheme: light)"
+    srcset="images/breakout-light.svg"
+  />
+  <img alt="Breakout Game" src="images/breakout-light.svg" />
+</picture>
+
+
+
+
+
 
 <div style="display: flex; align-items: center; gap: 16px;">
   <img src="https://raw.githubusercontent.com/Lotiel-Dev/Lotiel-Dev/main/assets/kyubey.gif" height="40" />
