@@ -3,6 +3,9 @@ name: Generate breakout animation
 on:
   schedule:
     - cron: "0 12 * * *"  #para que se actualice exactamente al mediodía UTC
+  
+  push:
+    branches: ["main"]
 
 permissions:
   contents: write
