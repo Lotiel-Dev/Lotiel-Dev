@@ -1,0 +1,42 @@
+name: Generate pacman animation
+
+on:
+  schedule:
+    - cron: "0 12 * * *"  #para que se actualice exactamente al mediodía UTC
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: generate SVG
+        uses: cyprieng/github-breakout@v1.0.0
+        with:
+          github_username: ${{ github.repository_owner }}
+
+      - name: Move generated SVGs
+        run: |
+          mkdir -p images
+          mv output/light.svg dist/breakout-light.svg
+          mv output/dark.svg dist/breakout-dark.svg
+
+      - name: push breakout.svg in main
+        run: |
+          git config --global user.name "Lotiel-Dev"
+          git config --global user.email "karlos817gerceis@gmail.com"
+          git add dist/*.svg
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+          git commit -m "chore: actualizacion de breakout SVG [skip ci]"
+          git push origin HEAD:main
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
