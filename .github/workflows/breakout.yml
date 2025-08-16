@@ -1,4 +1,4 @@
-name: Generate pacman animation
+name: Generate breakout animation
 
 on:
   schedule:
